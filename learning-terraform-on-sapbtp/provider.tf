@@ -6,10 +6,11 @@ terraform {
       version = "~> 1.15.0"
     }
   }
+
 }
 
 # Please checkout documentation on how best to authenticate against SAP BTP
 # via the Terraform provider for SAP BTP
 provider "btp" {
-  globalaccount = "e979b8cdtrial-ga"
+  globalaccount = var.globalaccount
 }
