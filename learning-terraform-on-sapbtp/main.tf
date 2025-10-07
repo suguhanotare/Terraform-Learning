@@ -16,3 +16,21 @@ resource "btp_subaccount" "project_subaccount" {
     "costcenter" = [var.project_costcenter]
   }
 }
+
+resource "btp_subaccount_entitlement" "alert_notification_service_standard" {
+  subaccount_id = btp_subaccount.project_subaccount.id
+  service_name  = "alert-notification"
+  plan_name     = "standard"
+}
+
+resource "btp_subaccount_entitlement" "feature_flags_service_lite" {
+  subaccount_id = btp_subaccount.project_subaccount.id
+  service_name  = "feature-flags"
+  plan_name     = "lite"
+}
+
+resource "btp_subaccount_entitlement" "feature_flags_dashboard_app" {
+  subaccount_id = btp_subaccount.project_subaccount.id
+  service_name  = "feature-flags-dashboard"
+  plan_name     = "dashboard"
+}
