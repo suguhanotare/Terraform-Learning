@@ -1,0 +1,4 @@
+cf_api_url         = "<API endpoint of your Cloud Foundry organization>"
+cf_org_id          = "<UUID of your Cloud Foundry organization>"
+cf_space_manager   = "<YOUR EMAIL>"
+cf_space_developer = "<YOUR EMAIL>"
