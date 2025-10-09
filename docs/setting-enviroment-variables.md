@@ -31,3 +31,6 @@ Setting the values depends on the operating system you are using:
    export CF_USE=<MY SAP BTP USERNAME>
    export CF_PASSWORD=<MY SAP BTP PASSWORD>
  ```
+
+> [!NOTE]
+> 
