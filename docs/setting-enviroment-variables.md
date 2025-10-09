@@ -1,5 +1,7 @@
 ### Setting of environment variables
 
+## Setting environment variables for BTP
+
 Setting the values depends on the operating system you are using:
 
  ```bash
@@ -19,4 +21,13 @@ You can check the environment variables that you have set with:
 ```bash
    echo $BTP_USERNAME
    echo $BTP_PASSWORD
+ ```
+
+## Setting environment variables for Cloud Foundry
+
+Setting the values depends on the operating system you are using:
+
+ ```bash
+   export CF_USE=<MY SAP BTP USERNAME>
+   export CF_PASSWORD=<MY SAP BTP PASSWORD>
  ```
