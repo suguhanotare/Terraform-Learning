@@ -28,9 +28,9 @@ You can check the environment variables that you have set with:
 Setting the values depends on the operating system you are using:
 
  ```bash
-   export CF_USE=<MY SAP BTP USERNAME>
+   export CF_USER=<MY SAP BTP USERNAME>
    export CF_PASSWORD=<MY SAP BTP PASSWORD>
  ```
 
 > [!NOTE]
-> 
+> The CloudFoundry user name is the email adress, the password is in the BTP Trail environment with SAP as Identity Provider is the suser password.
