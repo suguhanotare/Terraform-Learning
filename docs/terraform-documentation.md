@@ -14,8 +14,8 @@ XXXX
 
 
 ```bash
-   terraform-docs markdown table --output-file README.md --output-mode inject </path/to/module>
- ```
+terraform-docs markdown table --output-file README.md --output-mode inject </path/to/module>
+```
 
 ---
 
