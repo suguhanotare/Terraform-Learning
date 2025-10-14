@@ -10,8 +10,7 @@ Terraform Docs (often referred to as terraform-docs) is a tool used to automatic
 ## Create Terraform Documentation 🛠️
 
 ### Terraform Documentation Example
-XXXX
-
+The README.md file in the module directory will be updated with a Markdown table containing documentation for inputs (variables), outputs, resources, and other module details.
 
 ```bash
 terraform-docs markdown table --output-file README.md --output-mode inject </path/to/module>
