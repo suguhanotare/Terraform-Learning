@@ -1,4 +1,4 @@
-# Creat Terraform Documentation
+# Terraform Documentation
 
 ## Goal 🎯
 
@@ -7,9 +7,9 @@ Terraform Docs (often referred to as terraform-docs) is a tool used to automatic
 ## References 📝
 - [Automating Terraform Documentation with terraform-docs](https://medium.com/google-cloud/automating-terraform-documentation-with-terraform-docs-b708a266aff8)
 
-## XXX 🛠️
+## Create Terraform Documentation 🛠️
 
-### XXX
+### Terraform Documentation Example
 XXXX
 
 
