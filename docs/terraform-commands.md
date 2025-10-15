@@ -20,3 +20,18 @@ The `terraform validate` command validates the configuration files in a director
 ```Bash
 terraform validate
 ```
+
+#### Terraform Plan 🛠️
+The `terraform plan` command creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+
+```bash
+terraform plan -out=<name>.out
+```
+
+
+#### Terraform Apply 🛠️
+The terraform `apply` command executes the actions proposed in a Terraform plan.
+
+```bash
+terraform apply "<name>.out"
+```
