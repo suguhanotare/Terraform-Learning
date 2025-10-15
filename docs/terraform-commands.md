@@ -13,3 +13,10 @@ The `terraform fmt` command formats Terraform configuration file contents so tha
 ```Bash
 terraform fmt
 ```
+
+#### Terraform Validate 🛠️
+The `terraform validate` command validates the configuration files in a directory. It does not validate remote services, such as remote state or provider APIs.
+
+```Bash
+terraform validate
+```
