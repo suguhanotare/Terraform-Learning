@@ -35,3 +35,10 @@ The terraform `apply` command executes the actions proposed in a Terraform plan.
 ```bash
 terraform apply "<name>.out"
 ```
+
+#### Terraform Destroy 🛠️
+The 'terraform destroy' command deprovisions all objects managed by a Terraform configuration.
+
+```bash
+terraform destroy
+```
