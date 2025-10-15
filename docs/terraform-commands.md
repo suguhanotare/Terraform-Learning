@@ -8,7 +8,7 @@ Document frequently used Terraform commands.
 - []()
 
 #### Terraform FMT 🛠️
-The `terraform fmt` command formats Terraform configuration file contents so that it matches the canonical format and style.
+Teh `terraform fmt` command formats Terraform configuration file contents so that it matches the canonical format and style.
 
 ```Bash
 terraform fmt
