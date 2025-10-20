@@ -5,6 +5,7 @@ provider "registry.terraform.io/hashicorp/random" {
   version = "3.7.2"
   hashes = [
     "h1:356j/3XnXEKr9nyicLUufzoF4Yr6hRy481KIxRVpK0c=",
+    "h1:hkKSY5xI4R1H4Yrg10HHbtOoxZif2dXa9HFPSbaVg5o=",
     "zh:14829603a32e4bc4d05062f059e545a91e27ff033756b48afbae6b3c835f508f",
     "zh:1527fb07d9fea400d70e9e6eb4a2b918d5060d604749b6f1c361518e7da546dc",
     "zh:1e86bcd7ebec85ba336b423ba1db046aeaa3c0e5f921039b3f1a6fc2f978feab",
@@ -24,6 +25,7 @@ provider "registry.terraform.io/sap/btp" {
   version     = "1.15.1"
   constraints = "~> 1.15.0"
   hashes = [
+    "h1:6DNKNbxsr5UNX5e4wFCj7azBtSaDAuJhZBLULrJurwk=",
     "h1:owdUsk+GvxvQLXA1+hq/L0eHZUy9CEV1KL9hzmIZQhI=",
     "zh:080ba180750045c833adcca81d15c62c86bef9cc922e6cba3a2253f8d7d5681b",
     "zh:27620dce1394639ce450ddafcd57802cae4b3fd01ca0893e01ce8123b6a09079",
