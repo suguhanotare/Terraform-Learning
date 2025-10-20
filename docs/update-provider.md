@@ -47,4 +47,4 @@ The -upgrade flag will upgrade all providers to the latest version consistent wi
 
 
 
-Open the `.terraform.lock.hcl` file and notice that the AWS provider's version is now the latest version.
+Open the `.terraform.lock.hcl` file and notice that the BTP provider's version is now the latest version.
