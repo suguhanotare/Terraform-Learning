@@ -36,7 +36,11 @@ provider "registry.terraform.io/sap/btp" {
  The BTP provider version is v1.15.1. This fulfills the ~>=1.15.1 constraint, but is no longer the latest version of the BTP provider. 
 
 > [!NOTE]
-> For the SAP BTP (Business Technology Platform) Terraform provider, constraints = "~> 1.15.0" specifies a version range in your Terraform config. It requires the provider (source: SAP/btp) to use version >= 1.15.0 but < 2.0.0—allowing compatible patch/minor updates (e.g., 1.15.1 or 1.16.0) for bug fixes/features without major breaking changes. 
+> For the SAP BTP (Business Technology Platform) Terraform provider, constraints = "~> 1.15.0" specifies a version range in your Terraform config.
+> What ~> means:
+> - Allows patch version updates within the minor version 1.15.x
+> - Compatible versions: 1.15.0, 1.15.1, 1.15.2, etc.
+> - Blocks: 1.16.x, 1.17.x (major/minor version changes)
 
 ## Upgrade the SAP BTP Provider Version 🛠️
 
