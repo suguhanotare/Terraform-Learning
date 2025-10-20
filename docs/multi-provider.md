@@ -8,7 +8,7 @@ The goal of this file is to document the Multi Provider Setup of BTP & CloudFoun
 > This downside is not specific for the setup on SAP BTP, but is also the case for other cloud providers. In the case of Kubernetes it is even recommended to split the provisioning of the cluster from further action in the cluster to avoid unwanted side effects.
 
 ## References 📝
-- [XXX](XXXX)
+- [provision resources for Cloud Foundry alongside the BTP provider #992](https://github.com/SAP/terraform-provider-btp/discussions/992)
 
 ## Providing the Static Values from the BTP Directory to the Cloud Foundry Directory 🛠️
 Provide required values for `cf_api_url` and `cf_org_id` based on the output of the values for the Cloud Foundry API URL and the organization ID from the BTP directory.
