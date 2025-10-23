@@ -19,7 +19,7 @@ terraform-docs markdown table --output-file README.md --output-mode inject </pat
 for example:
 
 ```bash
-terraform-docs markdown table --output-file README.md --output-mode inject /workspaces/ubiquitous-spoon/learning-terraform-on-sapbtp/BTP
+terraform-docs markdown table --output-file README.md --output-mode inject /workspaces/Terraform-Learning/learning-terraform-on-sapbtp/BTP
 ```
 
 
