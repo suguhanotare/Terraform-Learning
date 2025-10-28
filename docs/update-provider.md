@@ -4,12 +4,19 @@
 
 The goal of this file is to document the update process of a Terraform provider
 
+> [!Important]
+> Always check release notes:
+> Look for:
+> - Breaking changes
+> - New resources/data sources
+> - Deprecations
+
 ## References 📝
 - [Lock and upgrade provider versions](https://developer.hashicorp.com/terraform/tutorials/configuration-language/provider-versioning)
+- [Release Notes](https://github.com/SAP/terraform-provider-btp/releases)
 
-## XXXX 🛠️
-
-## Explore provider.tf
+## Update a SAP BTP Terraform Provider 🛠️
+### Explore provider.tf
 Open the provider.tf file. Here you will find the terraform block which specifies the required provider version and required Terraform version for this configuration.
 
 ```terraform
@@ -22,8 +29,18 @@ terraform {
   }
 }
 ```
+You can check the current used provider versions with the command:
 
-## Explore terraform.lock.hcl 🛠️
+```bash
+terraform providers
+```
+<img width="1043" height="278" alt="image" src="https://github.com/user-attachments/assets/9c6100c6-8389-4374-a70d-375a7b0fffbc" />
+
+
+
+
+
+### Explore terraform.lock.hcl 🛠️
 When you initialize a Terraform configuration for the first time with Terraform 1.1 or later, Terraform will generate a new `.terraform.lock.hcl` file in the current working directory.
 
 For example the block with the SAP BTP provider:
@@ -42,7 +59,12 @@ provider "registry.terraform.io/sap/btp" {
 > - Compatible versions: 1.15.0, 1.15.1, 1.15.2, etc.
 > - Blocks: 1.16.x, 1.17.x (major/minor version changes)
 
-## Upgrade the SAP BTP Provider Version 🛠️
+### Update Version Constraint in `provider.tf`🛠️
+1. Open your Terraform configuration files and find the block that defines the BTP provider.
+2. Replace the old version with the new desired constraint.
+
+
+### Upgrade the SAP BTP Provider Version 🛠️
 
 ```bash
   terraform init -upgrade
